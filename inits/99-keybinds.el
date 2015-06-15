@@ -5,6 +5,7 @@
 
 (global-set-key "\C-h" 'backward-delete-char)
 
+(global-set-key (kbd "C-z") 'undo)
 (global-set-key (kbd "C-/") 'undo)
 (global-set-key (kbd "C-S-/") 'undo-tree-redo)
 (define-key undo-tree-visualizer-mode-map "\r" 'undo-tree-visualizer-quit)

@@ -5,7 +5,7 @@
 (global-linum-mode t)
 
 ;(setq-default left-fringe-width 15)
-(require 'git-gutter-fringe)
+(require 'git-gutter-fringe+)
 (global-git-gutter-mode t)
 ;(setq git-gutter-fr:side 'right-fringe)
 

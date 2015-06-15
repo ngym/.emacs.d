@@ -13,7 +13,7 @@
 (depends-on "flycheck")
 (depends-on "flycheck-cask")
 (depends-on "fringe-helper")
-(depends-on "git-gutter-fringe")
+(depends-on "git-gutter-fringe+")
 (depends-on "helm")
 (depends-on "htmlize")
 (depends-on "init-loader")
@@ -39,3 +39,5 @@
 ;haskell
 (depends-on "haskell-mode")
 ;(depends-on "flycheck-haskell")
+;tex
+(depends-on "yatex")
