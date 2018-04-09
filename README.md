@@ -20,3 +20,8 @@ M-S-@ リージョン縮小
 
 M-x helm-show-kill-ring
 M-x htmlize-region
+
+
+M-x ispell-buller
+
+M-x helm-show-kill-ring
