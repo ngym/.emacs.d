@@ -21,13 +21,20 @@
 (setq require-final-newline t)
 
 (blink-cursor-mode 1)
-(ac-config-default)
 
 (add-to-list 'exec-path "/usr/local/bin")
 (add-to-list 'exec-path "/Users/ngym/Library/Haskell/bin")
 
 (setq eval-expression-print-length nil)
 (setq eval-expression-print-level nil)
+
+;; メニューバーを非表示
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+;; スクロールバー非表示
+(set-scroll-bar-mode nil)
+
+(require 'minimap)
 
 ;(nyan-mode)
 ;(nyan-start-animation)
@@ -36,4 +43,7 @@
 (setq-default ispell-program-name "aspell") 
 (eval-after-load "ispell"
  '(add-to-list 'ispell-skip-region-alist '("[^\000-\377]+")))
+
+;; git checkout 時に自動で再読み込み
+(global-auto-revert-mode 1)
 

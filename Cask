@@ -33,6 +33,8 @@
 (depends-on "undo-tree")
 (depends-on "web-mode")
 ;(depends-on "yasnippet")
+;(depends-on "dakrone-theme")
+(depends-on "cyberpunk-theme")
 
 ;; prog mode
 ;python
